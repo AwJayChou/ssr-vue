@@ -1,29 +1,17 @@
-# vue-study
+# ssr-vue
 
-## Project setup
-```
-npm install
-```
+ssr在vue中的应用
 
-### Compiles and hot-reloads for development
+## 初始化
 ```
-npm run serve
+npm install && npm run build
 ```
 
-### Compiles and minifies for production
+## 启动
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+npm run srr
+访问 localhost:3000
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 调试
+每次修改完成后都要重新build和 npm run srr
